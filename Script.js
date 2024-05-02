@@ -18,7 +18,7 @@ $(function(){
       $(".anadir").click(function(){
         if(abrir){
           $("#nota").slideDown();
-          $(this).html("<p>Cerrar</p>");
+          $(this).html("<p>Close</p>");
           abrir = !abrir;
         } else {
           if($("#nota").val() === ""){
@@ -39,7 +39,7 @@ $(function(){
               </div>
             `);
             $("#nota").val("");
-            $(this).html("<p>Cerrar</p>");
+            $(this).html("<p>Close</p>");
             guardar();
           }
         }
@@ -47,7 +47,7 @@ $(function(){
       $("#nota").on("keyup", function() {
         if(abrir === false){
           if($(this).val() === ""){
-            $(".anadir").html("<p>Cerrar</p>");
+            $(".anadir").html("<p>Close</p>");
           
           } else {
              $(".anadir").html("<p>Añadir</p>");
