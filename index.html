@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título da página</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/cbcc2cb107.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+      <div class="navbar">
+         <i class="fas fa-bars"></i>
+         <div class="titulo">
+           <h1>To do list</h1>
+         </div> 
+      </div>  
+      <div class="input">
+        <input type="text" id="nota" placeholder="Añadir nota Max:18ctrs">
+      </div>
+      <div class="cont-notas" id="cont">
+        <br>
+        <button class="anadir">
+          <i class="fas fa-plus"></i> 
+          <p>Add task</p>          
+        </button>
+      </div>
+    </div>
+  
+    <div class="menu">
+      <div class="redes">
+        <i class="fab fa-github"></i>
+        <i class="fab fa-instagram"></i> 
+        <i class="fab fa-twitter"></i>  
+        <i class="fab fa-youtube"></i>
+        <i class="fas fa-book"></i>
+      </div>
+      <i class="fas fa-x" id="salir" onclick="sair()"></i>    
+      <div class="pagos">
+        <a href="https://www.buymeacoffee.com/YOSTDEV"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a book&emoji=📖&slug=YOSTDEV&button_colour=FFDD00&font_colour=000000&font_family=Lato&outline_colour=000000&coffee_colour=ffffff" /></a>        
+      </div>
+    </div>
+    
+    <script src="Script.js" async></script>
+</body>
+</html>
