@@ -4,7 +4,9 @@ $fondo: #E3E9FF;
 $box: #FFFFFF; 
 $texto: #96A1BF; 
 $color1: #AF7EEB; 
-
+* {
+  font-family: Arial;
+}
 body {
   background: $fondo;
 }
