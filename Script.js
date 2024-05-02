@@ -50,7 +50,7 @@ $(function(){
             $(".anadir").html("<p>Close</p>");
           
           } else {
-             $(".anadir").html("<p>Añadir</p>");
+             $(".anadir").html("<p>Add</p>");
           }
         }
       });
